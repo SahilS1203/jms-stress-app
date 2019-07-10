@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailActivity"
+    android:id="@+id/EmailLayout">
+
+<include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/WelcomeLetterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:background="@drawable/gradient"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+        android:text="Welcome Letter Email Template"
+
+        />
+
+    <Button
+        android:id="@+id/NewsletterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/HiringButton"
+        android:layout_alignRight="@id/HiringButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:background="@drawable/gradient"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:text="Newsletter Template" />
+
+    <Button
+        android:id="@+id/MilestoneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/gradient"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:text="Milestone Email Template"
+
+        />
+
+    <Button
+        android:id="@+id/OfferEmailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="346dp"
+        android:background="@drawable/gradient"
+        android:padding="10dp"
+        android:text="Offer Email Template"
+
+        />
+
+    <Button
+        android:id="@+id/SurveyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="428dp"
+        android:background="@drawable/gradient"
+        android:padding="10dp"
+        android:textColor="@color/colorWhite"
+        android:text="Survey Email Template" />
+
+    <Button
+        android:id="@+id/HiringButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="507dp"
+        android:background="@drawable/gradient"
+        android:padding="10dp"
+        android:text="Hiring Email Template"
+
+        />
+
+
+
+    <android.support.design.widget.BottomNavigationView
+        app:labelVisibilityMode="labeled"
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    app:menu="@menu/bottom_navigation"
+    app:itemIconTint="@color/colorAccent"
+    app:itemTextColor="@color/colorAccent"
+    android:background="@drawable/gradient"
+    app:itemHorizontalTranslationEnabled="true"/>
+
+        </RelativeLayout>

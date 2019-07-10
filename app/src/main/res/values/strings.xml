@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">JMSStressApp</string>
+    <string name="save">Save!</string>
+    <string name="details"> Write the details of the task. </string>
+    <string name="Tasks"> Tasks </string>
+    <string name="Calendar"> Calendar </string>
+    <string name="Email"> Email Templates </string>
+    <string name="Stress"> Combat Stress </string>
+    <string name="Settings"> Settings</string>
+    <string name="Play"> Play </string>
+    <string name="ToolbarText"> JMS Stress Reliever </string>
+    <string name="HiringText">"Hi [Candidate_Name] / Dear [Candidate_Name],
+
+Thank you for applying to the [Job_title] position at [Company_name].
+
+I’d like to inform you that we received your [application/resume/portfolio.] Our hiring team is currently reviewing all applications and we are planning to schedule interviews [mention timeframe, e.g. in the next two weeks.] If you are among qualified candidates, you will receive [e.g. a call/email] from our one of our recruiters to schedule [e.g. a phone interview.] In any case, we will keep you posted on the status of your application.
+
+Thank you, again, for taking the time to apply to this role at [Company_name.]
+
+Best regards,
+
+[Your name]
+[Signature]"</string>
+    <string name="SurveyText">"Dear [customer’s name]
+
+        Hi, [customer's name], this is an email from JMS Global LLC. Is it possible for you to fill out a quick survey regarding our products.
+
+        The link to it is: [insert link here]
+Yours,
+[Your name]
+[Your signature]"
+
+
+    </string>
+    <string name="OfferText">"Dear Mr./Ms. (insert selected candidate’s last name),
+
+I am pleased to extend the following offer of employment to you on behalf of JMS Global LLC. You have been selected as the best candidate for the [insert job position name] position. Congratulations!
+We believe that your knowledge, skills and experience would be an ideal fit for our [insert your company's department] team. We hope you will enjoy your role and make a significant contribution to the overall success of [insert your company’s name].
+Please take the time to review our offer.
+
+Position
+JMS Global LLC is offering a [insert applicable option: full time/part time/etc.] position for you as [insert job title]. In this position, you will report to [insert immediate manager/supervisor position title].
+
+We look forward to welcoming you to the JMS Global LLC team.
+
+If you have any questions or need additional information, please don’t hesitate to contact me by email [insert your email address] or phone [insert your phone number].
+
+Sincerely,
+[insert your first name and last name]
+[insert your job position title]
+JMS Global LLC.
+    </string>
+    <string name="MilestoneText">
+        "Dear [employee’s name]
+Happy [insert number here] Birthday!
+
+        I hope you have a great day and I hope you are enjoying your time at JMS!
+
+        I look forward to cherish great memories with you!
+
+Yours,
+[Your name]
+[Your signature]"
+    </string>
+    <string name="NewsletterText">
+        "Dear [employee’s name]
+
+        JMS Global LLC
+        Newsletter Issue No. 1
+
+        Thoughts from the CEO
+        At JMS, we value leadership that produces results. [insert text here]
+
+        6 Signs of a Good Leader
+        [insert text here]
+
+
+ Yours,
+[Your name]
+[Your signature]"
+
+    </string>
+    <string name="WelcomeEmailTemplateText">"Dear [employee’s name]
+
+Welcome on board! We’re delighted that you are joining us. We were impressed with your background and skills and we can’t wait to see you in action.
+
+Please come in on [insert date] at our offices [insert address/floor], where Human Resources will be be there to welcome you. We have organized your first day to help you settle in properly. Here’s an outline of what to expect:
+
+1. You will take some time at the beginning to sign the employment contract and any other necessary paperwork
+2. You will familiarize yourself with your workstation and set up accounts and any other hardware
+3. You’ll get time with your team leader who will brief you on the position and responsibilities
+4. We’ll have induction training on the basics like policies, company products and perks
+5. At lunchtime, HR will introduce you to your colleagues
+
+To help you familiarize yourself with the company, we have arranged your access to our employee directory here: [insert link]. We want to ensure that you feel comfortable and hit the ground running.
+
+Our dress code is [business casual]. Don’t forget to bring your ID. We have enclosed benefit forms and the employment contract so you can have time to review them before you sign.
+
+You can find out more about the company’s culture in our Employee Handbook (enclosed). We’re confident that you’ll be a real asset for our company. Looking forward to welcoming you in person!
+
+Yours,
+
+[Your name]
+[Your signature]"  </string>
+
+    <string name="Help">
+        "Q1. How do I complete tasks on the to-do-list?
+
+Ans.To complete tasks on the to-do-list, you must press and hold onto the task that you want to mark as completed for three seconds.
+
+Q2. How to access and play the video to alleviate stress?
+
+Ans. Click on the Combat Stress Page, and then you will see a black box on the screen, then click on the black box and click on the play button and enjoy the video.
+
+Q3. How to view the month and the year on the calendar?
+
+A. Due to technical issues, when you first view the calendar, you may be unable to see the month and year, therefore, swipe left or right and the month and year will appear.
+
+        Q4. How to copy the email templates?
+
+        A. To copy the email templates, hold and press the text and click on the Select All button and click on the Copy button and paste it onto your email"
+"
+
+    </string>
+
+    <string name="about"> "This application is created to improve the productivity of JMS employees by alleviating stress encountered by employees in the workplace.
+
+This application was created for the JMS company in 2019.
+
+JMS is a company that focuses on trading consumer electronics, and thus the owner aims to expand and grow the business."</string>
+
+</resources>
